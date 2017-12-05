@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.container{
+	width:85%;
+	margin: 0 auto;
+}
+.flex-box{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+.menu-top{
+	width: 100%;
+	background: url(../images/header.png);
+	background-position: center center;
+	background-size: contain;
+	padding: 2rem 0;
+}
+.logo,
+.menu-header,
+.media-social{
+	display: inline-block;
+	vertical-align: middle;
+}
+.media-social a{
+	margin-left: 10px;
+}
+.menu-nav{
+	width: 100%;
+}
+.menu-header{
+	width: 50%;
+}
+.menu-item a{
+	color: #ffff;
+	display: block;
+	font-size: 130%;
+}
+.content{
+	background: url(../images/background.png);
+	background-size: 55%;
+	background-repeat: repeat;
+	// padding-top: 3rem;
+}
+.image{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	width: 50%;
+}
+.text-01{
+	top: 0rem;
+	z-index: 1;
+}
+.text-02{
+	top: -9rem;
+	z-index: 1;
+}
+.image-book{
+	top: -6rem;
+}
+.webdoor{
+	position: relative;
+	padding-top: 3rem;
+	width: 100%;
+}
+.image-fire{
+	position: absolute;
+	top: 15%;
+	width: 10%;
+}
+img[src="images/text_03.png"]{
+	margin-bottom: 5rem;
+}
+.fire-left{
+	left: 0;
+}
+.fire-right{
+	right: 0;
+}
+.int{
+	width: 5%;
+	position: relative;
+	left: -2%;
+}
+.video{
+	position: relative;
+}
+.player-video{
+	width: 35%;
+	z-index: 1;
+	position: relative;
+	left: 25%;
+	cursor: pointer;
+}
+.video-info{
+	position: absolute;
+	right: 0%;
+	top: 15%;
+	width: 30%;
+}
+.modal{
+	width: 101%;
+	height: 100%;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	left: 50%;
+	background-color: rgba(0,0,0,.8);
+	top: 50%;
+	opacity: 0;
+}
+.active{
+	z-index: 2;
+}
+.close-modal{
+	position: absolute;
+	color: #ffff;
+	font-size: 200%;
+	font-family: "Arial", sans-serif;
+	cursor: pointer;
+	top: 4em;
+	right: 7em;
+}
+iframe{
+	transform: translate(-50%, -50%);
+	position: relative;
+	left: 50%;
+	top: 50%;
+}
+.second{
+	top: 9rem;
+}
+.int-footer{
+	left: 48%;
+	margin-bottom: 10rem
+}
+.box-release{
+	position: relative;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 12rem;
+}
+.box-img{
+	width: 100%;
+}
+.box-release-info{
+	z-index: 1;
+	width: 90%;
+	position: absolute;
+	top: 15%;
+	left: 5%;
+	font-size: 140%;
+	text-align: center;
+}
+.fire-left-extra{
+	transform: rotate(180deg);
+}
+.buy{
+	margin-top: 10rem;
+	padding-bottom: 10rem;
+}
+.buy a{
+	width: 100%;
+}
+.buy a img{
+	width: 90%;
+}
+footer{
+	padding: 2rem 0;
+	background: url(../images/footer.png);
+}
+.info-footer{
+	color: #ffff;
+}
+.info-footer:nth-child(2){
+	margin-top: 2rem;
+}
