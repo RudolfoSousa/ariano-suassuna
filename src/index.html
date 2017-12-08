@@ -14,19 +14,25 @@
 					<img src="images/logo.png">
 				</a>
 			</div>
+			<div class="menu-open">
+				<div class="line-top"></div>
+				<div class="line-middle"></div>
+				<div class="line-bottom"></div>
+			</div>
 			<div class="menu-header">
+				<div class="close-menu">x</div>
 				<ul class="menu-nav flex-box">
 					<li class="menu-item">
 						<a href="">Home</a>
 					</li>
 					<li class="menu-item">
-						<a href="">Video</a>
+						<a href="#video">Video</a>
 					</li>				
 					<li class="menu-item">
-						<a href="">Release</a>
+						<a href="#release">Release</a>
 					</li>
 					<li class="menu-item">
-						<a href="">Links e infos</a>
+						<a href="#links">Links e infos</a>
 					</li>
 				</ul>
 			</div>
@@ -44,7 +50,7 @@
 		</div>
 	</header>
 	<main class="content">
-		<div class="webdoor">
+		<div id="home" class="webdoor">
 			<img class="image-fire fire-left" src="images/fire_left.png">
 			<img class="image text-01" src="images/text_02.png">
 			<img class="image image-book" src="images/book.jpg">
@@ -53,9 +59,11 @@
 			<img class="int" src="images/ring.png">
 			<img class="image" src="images/text_03.png">
 		</div>
-		<div class="video">
+		<div id="video" class="video">
 			<img class="player-video" src="images/player-video.png">
-			<img class="video-info" src="images/text_04.png">
+			<a href="http://sertaofilmesailumiara.com.br/sample-page/videos/">
+				<img class="video-info" src="images/text_04.png">
+			</a>
 		</div>
 		<div class="modal">
 			<iframe width="75%" height="600" src="https://www.youtube.com/embed/e3-zrgfi8-0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen autoplay="true"></iframe>
@@ -64,18 +72,23 @@
 		<div class="webdoor">
 			<img class="image" src="images/text_05.png">
 			<img class="int second" src="images/img_01.png">
-			<div class="box-release">
+			<div id="release" class="box-release">
 				<img class="box-img" src="images/box-info.png">
-				<p class="box-release-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="box-release-info">Últio livro de Ariano Suassuna, concluído poucos dias antes de sua morte, o <strong>Romande de Dom Pantero no Palco dos Pecadores</strong> é uma espécie de testamento literáro do autor. Composto por cartas assinadas por Antero Savedra sob o pseudônimo de "Dom Pantero", publicadas em um suplemento de jornal, o romance conta a trajetória de um misto de escritor, ator, encenador, professor e palhaço que dedica a sua vida à realização de uma grande obra, o ramancista Auro Schabino, o dramaturgo Adriel Soares e o poeta Altino Sotero.</p>
+				<p class="box-release-info box-release-info-extra">Este romance representa uma espécie de súmula da obra de Ariano, pois trata-se de uma narrativa original, resultante da fusão de vários gêneros literários: o diálogo, o romance, a poesia, a carta, o artigo de jornal, a autobiografia, a memória, a entrevista, o ensaio... É uma história que vai sendo construída aos poucos, à medida que o leitor vai escutando tantas vozes de tantos narradores, sob a batuta de Dom Pantero. Uma narrativa pós-moderna, que se funde às ilustrações d próprio autor e comprovga o caráter transgressor de Suassuna.</p>
+				<p class="box-release-info box-release-info-isbm">
+					ISBM 9788520932988
+					<br>
+					Número de páginas 1.024
+					<br>
+					Formato 15,5 x 23 cm
+					<br>
+					Autor Ariano Suassuna
+				</p>
 			</div>
 			<img class="int second int-footer" src="images/img_01.png">
 		</div>
-		<div class="last webdoor">
+		<div id="links" class="last webdoor">
 			<img class="image-fire fire-left fire-left-extra" src="images/fire_right_02.png">
 			<img class="image" src="images/text_06.png">
 			<img class="image-fire fire-right" src="images/fire_right_02.png">
@@ -90,7 +103,7 @@
 			<a href="http://bit.ly/2AlxmBa">
 				<img src="images/curitiba.png">
 			</a>
-			<a href="">
+			<a href="http://bit.ly/DomPantero">
 				<img src="images/saraiva.png">
 			</a>
 			<a href="http://bit.ly/2zD1qqV">
